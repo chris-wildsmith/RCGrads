@@ -1,0 +1,5 @@
+data/core_extensions.cpp.i
+data/core.cpp.i
+data/core_extensions.h.i
+data/core_enums.h.i
+data/core.h.i
