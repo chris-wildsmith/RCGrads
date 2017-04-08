@@ -26,7 +26,7 @@ class PiVideoStream:
         # Keep looping infinitely until the thread is stopped
         for f in self.stream:
             # grab the frame from the stream and clear the stream in
-            # preperation for the next frame
+            # preparation for the next frame
             self.frame = f.array
             self.rawCapture.truncate(0)
 
